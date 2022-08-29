@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "layers": "node download",
-    "draw": "node draw-mfers"
+    "draw:all": "node scripts/draw-bodies && node scripts/draw-heads && node scripts/draw-mfers && node scripts/draw-transparents"
   },
   "keywords": [],
   "author": "",
